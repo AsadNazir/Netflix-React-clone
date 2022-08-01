@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--blackColor);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fs1: clamp(2rem, 3vw, 3rem);
+  --fs2: clamp(1.8rem, 3vw, 2.5rem);
+  --fs3: clamp(0.9rem, 2vw, 1.2rem);
+  --blackColor: rgb(15, 15, 15);
+}
+
+h1,
+p {
+  color: white;
+  margin: 1rem 0;
+}
